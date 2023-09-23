@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "dimando:block/rich_dimando_ore"
+    }
+  }
+}

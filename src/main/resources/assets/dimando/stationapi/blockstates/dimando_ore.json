@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "dimando:block/dimando_ore"
+    }
+  }
+}

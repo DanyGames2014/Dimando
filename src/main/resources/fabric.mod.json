@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "dimando",
+  "version": "${version}",
+
+  "name": "Dimando",
+  "description": "This is Dimando!",
+  "authors": [
+    "DanyGame2014",
+    "Atilist"
+  ],
+
+  "license": "CC0-1.0",
+  "icon": "assets/dimando/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "stationapi:event_bus": [
+      "net.danygames2014.dimando.Dimando",
+      "net.danygames2014.dimando.events.init.ItemListener",
+      "net.danygames2014.dimando.events.init.BlockListener",
+      "net.danygames2014.dimando.events.init.ChunkListener"
+    ],
+    "stationapi:event_bus_client": [
+    ],
+    "stationapi:event_bus_server": [
+    ]
+  },
+  "mixins": [
+    "dimando.mixins.json"
+  ],
+
+  "depends": {
+    "minecraft": "1.0.0-beta.7.3"
+  }
+}
