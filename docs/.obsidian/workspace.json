@@ -1,0 +1,188 @@
+{
+  "main": {
+    "id": "990d3a95cf660cdd",
+    "type": "split",
+    "children": [
+      {
+        "id": "748dd44c224db3a1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7a84bb1a0c271579",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "9bc2c2a18e11ce26",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Blocks/attachments/dimando_ore.png"
+              }
+            },
+            "group": "ce9a1ae4a4499f99"
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "145d4b28417ea722",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bb7563ab03e6ac99",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Blocks/attachments/dimando_ore.png"
+              }
+            },
+            "group": "ce9a1ae4a4499f99"
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cb441d72d4837f2f",
+    "type": "split",
+    "children": [
+      {
+        "id": "4e57ba257ed719ae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e339807eb9d402d3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "892d582cb614a56f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "40948a974163ba68",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "63b00e21ce192bac",
+    "type": "split",
+    "children": [
+      {
+        "id": "5030a035cdf23b0e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7213406e9f839eb2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Blocks/attachments/dimando_ore.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "00be9741ba2892ae",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Blocks/attachments/dimando_ore.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7d7cbb6ce33bf015",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f76a4a16e9b30d9d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Blocks/attachments/dimando_ore.png"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "templates:Insert template": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "9bc2c2a18e11ce26",
+  "lastOpenFiles": [
+    "Blocks/attachments/rich_dimando_ore.png",
+    "Blocks/attachments/poor_dimando_ore.png",
+    "Blocks/attachments/dimando_ore.png",
+    "Blocks/Dimando Ore.md",
+    "Blocks/Rich Dimando Ore.md",
+    "Blocks/Poor Dimando Ore.md",
+    "Blocks/attachments",
+    "Untitled",
+    "Items",
+    "Blocks"
+  ]
+}
