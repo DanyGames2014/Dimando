@@ -1,4 +1,4 @@
-![Dimando Ore](dimando_ore.png)
+![Dimando Ore](attachments/dimando_ore.png)
 
 <table>
 	<tr>

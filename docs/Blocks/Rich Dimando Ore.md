@@ -1,4 +1,4 @@
-![Rich Dimando Ore](rich_dimando_ore.png)
+![Rich Dimando Ore](attachments/rich_dimando_ore.png)
 
 <table>
 	<tr>

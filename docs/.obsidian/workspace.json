@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blocks/Rich Dimando Ore.md",
+                "file": "Blocks/Dimando Ore.md",
                 "mode": "source",
                 "source": true
               }
@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blocks/Rich Dimando Ore.md",
+                "file": "Blocks/Dimando Ore.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blocks/Rich Dimando Ore.md",
+                "file": "Blocks/Dimando Ore.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blocks/Rich Dimando Ore.md",
+                "file": "Blocks/Dimando Ore.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blocks/Rich Dimando Ore.md"
+                "file": "Blocks/Dimando Ore.md"
               }
             }
           }
@@ -179,11 +179,11 @@
   "active": "9bc2c2a18e11ce26",
   "lastOpenFiles": [
     "Blocks/Poor Dimando Ore.md",
+    "Blocks/Rich Dimando Ore.md",
     "Blocks/Dimando Ore.md",
     "Blocks/attachments/dimando_ore.png",
     "Blocks/attachments/rich_dimando_ore.png",
     "Blocks/attachments/poor_dimando_ore.png",
-    "Blocks/Rich Dimando Ore.md",
     "Blocks/attachments",
     "Untitled",
     "Items",
