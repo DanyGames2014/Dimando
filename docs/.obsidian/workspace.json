@@ -19,9 +19,11 @@
             "id": "9bc2c2a18e11ce26",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Blocks/attachments/dimando_ore.png"
+                "file": "Blocks/Rich Dimando Ore.md",
+                "mode": "source",
+                "source": true
               }
             },
             "group": "ce9a1ae4a4499f99"
@@ -37,9 +39,11 @@
             "id": "bb7563ab03e6ac99",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Blocks/attachments/dimando_ore.png"
+                "file": "Blocks/Rich Dimando Ore.md",
+                "mode": "source",
+                "source": false
               }
             },
             "group": "ce9a1ae4a4499f99"
@@ -110,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blocks/attachments/dimando_ore.png",
+                "file": "Blocks/Rich Dimando Ore.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blocks/attachments/dimando_ore.png",
+                "file": "Blocks/Rich Dimando Ore.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blocks/attachments/dimando_ore.png"
+                "file": "Blocks/Rich Dimando Ore.md"
               }
             }
           }
@@ -174,12 +178,12 @@
   },
   "active": "9bc2c2a18e11ce26",
   "lastOpenFiles": [
+    "Blocks/Poor Dimando Ore.md",
+    "Blocks/Dimando Ore.md",
+    "Blocks/attachments/dimando_ore.png",
     "Blocks/attachments/rich_dimando_ore.png",
     "Blocks/attachments/poor_dimando_ore.png",
-    "Blocks/attachments/dimando_ore.png",
-    "Blocks/Dimando Ore.md",
     "Blocks/Rich Dimando Ore.md",
-    "Blocks/Poor Dimando Ore.md",
     "Blocks/attachments",
     "Untitled",
     "Items",

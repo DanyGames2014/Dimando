@@ -1,4 +1,4 @@
-![[dimando_ore.png]]
+![Dimando Ore](dimando_ore.png)
 
 <table>
 	<tr>
