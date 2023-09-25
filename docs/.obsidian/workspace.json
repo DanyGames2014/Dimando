@@ -8,45 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7a84bb1a0c271579",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "9bc2c2a18e11ce26",
+            "id": "4f03b7d85a5f42c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blocks/Dimando Ore.md",
+                "file": "World Generation.md",
                 "mode": "source",
                 "source": true
               }
             },
-            "group": "ce9a1ae4a4499f99"
+            "group": "76a91352198afdca"
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "145d4b28417ea722",
+        "id": "64af5f567d2f5bef",
         "type": "tabs",
         "children": [
           {
-            "id": "bb7563ab03e6ac99",
+            "id": "ab91fd142d87be9c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blocks/Dimando Ore.md",
-                "mode": "source",
-                "source": false
+                "file": "World Generation.md",
+                "mode": "preview",
+                "source": true
               }
             },
-            "group": "ce9a1ae4a4499f99"
+            "group": "76a91352198afdca"
           }
         ]
       }
@@ -114,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blocks/Dimando Ore.md",
+                "file": "World Generation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blocks/Dimando Ore.md",
+                "file": "World Generation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blocks/Dimando Ore.md"
+                "file": "World Generation.md"
               }
             }
           }
@@ -176,11 +167,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9bc2c2a18e11ce26",
+  "active": "ab91fd142d87be9c",
   "lastOpenFiles": [
+    "Blocks/Dimando Ore.md",
+    "World Generation.md",
     "Blocks/Poor Dimando Ore.md",
     "Blocks/Rich Dimando Ore.md",
-    "Blocks/Dimando Ore.md",
     "Blocks/attachments/dimando_ore.png",
     "Blocks/attachments/rich_dimando_ore.png",
     "Blocks/attachments/poor_dimando_ore.png",

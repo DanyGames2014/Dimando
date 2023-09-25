@@ -1,3 +1,5 @@
+# Rich Dimando Ore
+
 ![Rich Dimando Ore](attachments/rich_dimando_ore.png)
 
 <table>
