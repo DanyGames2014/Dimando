@@ -19,7 +19,8 @@
       "net.danygames2014.dimando.Dimando",
       "net.danygames2014.dimando.events.init.ItemListener",
       "net.danygames2014.dimando.events.init.BlockListener",
-      "net.danygames2014.dimando.events.init.ChunkListener"
+      "net.danygames2014.dimando.events.init.ChunkListener",
+      "net.danygames2014.dimando.events.init.TileEntityListener"
     ],
     "stationapi:event_bus_client": [
     ],
