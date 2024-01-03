@@ -8,6 +8,7 @@ import net.modificationstation.stationapi.api.template.item.TemplateItem;
 import net.modificationstation.stationapi.api.util.Namespace;
 import net.modificationstation.stationapi.api.util.Null;
 
+@SuppressWarnings("unused")
 public class ItemListener {
 
     @Entrypoint.Namespace
@@ -18,7 +19,7 @@ public class ItemListener {
     public static Item tiny_dimando;
 
     @EventListener
-    public void registerItems(ItemRegistryEvent event){
+    public void registerItems(ItemRegistryEvent event) {
         dimando = new TemplateItem(MOD_ID.id("dimando")).setTranslationKey(MOD_ID, "dimando");
         small_dimando = new TemplateItem(MOD_ID.id("small_dimando")).setTranslationKey(MOD_ID, "small_dimando");
         tiny_dimando = new TemplateItem(MOD_ID.id("tiny_dimando")).setTranslationKey(MOD_ID, "tiny_dimando");

@@ -15,10 +15,9 @@ public class BlockListener {
     public static Block poor_dimando_ore;
     public static Block dimando_ore;
     public static Block rich_dimando_ore;
-    public static Block camoBlock;
 
     @EventListener
-    public void registerBlock(BlockRegistryEvent event){
+    public void registerBlock(BlockRegistryEvent event) {
         poor_dimando_ore = new DimandoOreBlock(MOD_ID.id("poor_dimando_ore")).setTranslationKey(MOD_ID, "poor_dimando_ore");
         dimando_ore = new DimandoOreBlock(MOD_ID.id("dimando_ore")).setTranslationKey(MOD_ID, "dimando_ore");
         rich_dimando_ore = new DimandoOreBlock(MOD_ID.id("rich_dimando_ore")).setTranslationKey(MOD_ID, "rich_dimando_ore");

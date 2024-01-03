@@ -2,14 +2,13 @@ package net.danygames2014.dimando.world;
 
 import net.danygames2014.dimando.Dimando;
 import net.danygames2014.dimando.events.init.BlockListener;
-import net.danygames2014.dimando.util.NeighbourBlockPos;
-import net.danygames2014.dimando.util.OreUtil;
 import net.minecraft.class_239;
 import net.minecraft.world.World;
 
 import java.util.Random;
 
-import static net.danygames2014.dimando.util.OreUtil.*;
+import static net.danygames2014.dimando.util.OreUtil.generateNeighbourOreWithChance;
+import static net.danygames2014.dimando.util.OreUtil.generateOre;
 
 public class DimandoOreStructure extends class_239 {
     @Override
