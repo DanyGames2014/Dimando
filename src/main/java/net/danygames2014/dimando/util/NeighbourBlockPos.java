@@ -47,15 +47,15 @@ public enum NeighbourBlockPos {
         this.offsetZ = offsetZ;
     };
 
-    public BlockPos getOffsetBlockPosFor(int x, int y, int z){
+    public BlockPos getNeighbourBlockPosFor(int x, int y, int z){
         return new BlockPos(x+this.offsetX, y+this.offsetY, z+this.offsetZ);
     }
 
-    public static BlockPos getRandomNeighbourBlockPos(Random random, int x, int y, int z){
+    public static BlockPos getRandomNeighbourBlockPosFor(Random random, int x, int y, int z){
         int randomValue = random.nextInt(0,NeighbourBlockPos.values().length-1);
 
         NeighbourBlockPos sorroundingBlockPos = NeighbourBlockPos.values()[randomValue];
 
-        return sorroundingBlockPos.getOffsetBlockPosFor(x,y,z);
+        return sorroundingBlockPos.getNeighbourBlockPosFor(x,y,z);
     }
 }

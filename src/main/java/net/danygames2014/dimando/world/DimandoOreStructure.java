@@ -3,11 +3,13 @@ package net.danygames2014.dimando.world;
 import net.danygames2014.dimando.Dimando;
 import net.danygames2014.dimando.events.init.BlockListener;
 import net.danygames2014.dimando.util.NeighbourBlockPos;
-import net.danygames2014.dimando.util.Util;
+import net.danygames2014.dimando.util.OreUtil;
 import net.minecraft.class_239;
 import net.minecraft.world.World;
 
 import java.util.Random;
+
+import static net.danygames2014.dimando.util.OreUtil.*;
 
 public class DimandoOreStructure extends class_239 {
     @Override
@@ -16,24 +18,31 @@ public class DimandoOreStructure extends class_239 {
 
         switch (richness) {
             case 9:
+                generateNeighbourOreWithChance(world, x, y, z, BlockListener.rich_dimando_ore.id, random, 75);
             case 8:
-                world.setBlock(x, y, z, BlockListener.rich_dimando_ore.id);
+                generateOre(world, x, y, z, BlockListener.rich_dimando_ore.id);
+                generateNeighbourOreWithChance(world, x, y, z, BlockListener.dimando_ore.id, random, 35);
                 return true;
 
             case 7:
+                generateNeighbourOreWithChance(world, x, y, z, BlockListener.dimando_ore.id, random, 75);
             case 6:
+                generateNeighbourOreWithChance(world, x, y, z, BlockListener.dimando_ore.id, random, 35);
             case 5:
-                world.setBlock(x, y, z, BlockListener.dimando_ore.id);
+                generateNeighbourOreWithChance(world, x, y, z, BlockListener.poor_dimando_ore.id, random, 50);
+                generateOre(world, x, y, z, BlockListener.dimando_ore.id);
                 return true;
 
             case 4:
+                generateNeighbourOreWithChance(world, x, y, z, BlockListener.dimando_ore.id, random, 40);
             case 3:
+                generateNeighbourOreWithChance(world, x, y, z, BlockListener.poor_dimando_ore.id, random, 90);
             case 2:
-                Util.setBlock(world, NeighbourBlockPos.getRandomNeighbourBlockPos(random, x, y, z), BlockListener.poor_dimando_ore.id);
+                generateNeighbourOreWithChance(world, x, y, z, BlockListener.poor_dimando_ore.id, random, 65);
             case 1:
-                Util.setBlock(world, NeighbourBlockPos.getRandomNeighbourBlockPos(random, x, y, z), BlockListener.poor_dimando_ore.id);
+                generateNeighbourOreWithChance(world, x, y, z, BlockListener.poor_dimando_ore.id, random, 35);
             case 0:
-                world.setBlock(x, y, z, BlockListener.poor_dimando_ore.id);
+                generateOre(world, x, y, z, BlockListener.poor_dimando_ore.id);
                 return true;
 
             default:
