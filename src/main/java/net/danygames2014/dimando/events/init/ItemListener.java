@@ -13,9 +13,9 @@ public class ItemListener {
     @Entrypoint.Namespace
     public static final Namespace MOD_ID = Null.get();
 
-    Item dimando;
-    Item small_dimando;
-    Item tiny_dimando;
+    public static Item dimando;
+    public static Item small_dimando;
+    public static Item tiny_dimando;
 
     @EventListener
     public void registerItems(ItemRegistryEvent event){
