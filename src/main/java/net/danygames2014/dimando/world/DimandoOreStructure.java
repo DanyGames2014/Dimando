@@ -2,6 +2,8 @@ package net.danygames2014.dimando.world;
 
 import net.danygames2014.dimando.Dimando;
 import net.danygames2014.dimando.events.init.BlockListener;
+import net.danygames2014.dimando.util.NeighbourBlockPos;
+import net.danygames2014.dimando.util.Util;
 import net.minecraft.class_239;
 import net.minecraft.world.World;
 
@@ -27,7 +29,9 @@ public class DimandoOreStructure extends class_239 {
             case 4:
             case 3:
             case 2:
+                Util.setBlock(world, NeighbourBlockPos.getRandomNeighbourBlockPos(random, x, y, z), BlockListener.poor_dimando_ore.id);
             case 1:
+                Util.setBlock(world, NeighbourBlockPos.getRandomNeighbourBlockPos(random, x, y, z), BlockListener.poor_dimando_ore.id);
             case 0:
                 world.setBlock(x, y, z, BlockListener.poor_dimando_ore.id);
                 return true;
