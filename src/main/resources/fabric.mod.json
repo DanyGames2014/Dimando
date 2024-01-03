@@ -10,7 +10,7 @@
     "Atilist"
   ],
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/dimando/icon.png",
 
   "environment": "*",
